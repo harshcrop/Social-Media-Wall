@@ -1,0 +1,70 @@
+body{
+	color:black;
+	font-weight: bold;
+	font-size: 150%;
+	font-family: "Verdana";
+}
+
+/*sets the max height for images, adjust depending on the resolution of your screen*/
+img{
+	max-height: 700;
+	max-width: 700;
+}
+.social{
+	font-weight: bold;
+	margin-left: auto;
+  
+}
+
+img.social_username{
+	vertical-align: middle;
+	max-height: 60;
+	max-width: 60;
+}
+
+.footer {
+	text-align: center;
+	font-weight: bold;
+	font-size: 150%;
+}
+
+/*following css is to center allign the sponsor images*/
+.sponsor_container{
+    position: relative;
+  	float:left; 
+  	width: 100%;
+   
+    height: 650px
+}
+
+.sponsor_image{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.sponsor_image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    text-align:center; /* Align center inline elements */
+    font: 0/0 a;
+}
+
+.sponsor_image:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.sponsor_image img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
