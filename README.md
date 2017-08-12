@@ -1,6 +1,4 @@
-
-
-#Social Media Wall
+# Social Media Wall
 
 Create a livestream of Twitter and Instagram pictures to be shown during your event.
 
