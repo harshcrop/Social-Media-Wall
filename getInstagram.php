@@ -5,7 +5,7 @@ require_once 'emoji/emoji.php';
 require_once 'configuration.php';
 require_once 'getBlocked.php';
 
-$json = file_get_contents('https://api.instagram.com/v1/tags/'.$hashtag.'/media/recent?client_id='.$instagram_client_id);
+$json = file_get_contents('https://api.instagram.com/v1/tags/'.$hashtag.'/media/recent?access_token='.$instagram_access_token);
 $obj = json_decode($json, true);
 
 
