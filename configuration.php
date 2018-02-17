@@ -12,6 +12,7 @@
 
 	/**set Instagram client id here - see: http://instagram.com/developer/clients/manage/ **/
 	$instagram_client_id = "";
+	$instagram_access_token = "";
 	
 	
 	/** Set access tokens here - see: https://dev.twitter.com/apps/ **/
